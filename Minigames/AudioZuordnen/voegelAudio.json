@@ -1,0 +1,42 @@
+[
+    {
+        "src": "sounds/voegel/Amsel.mp3",
+        "pairID": "1",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Auerhuhn.mp3",
+        "pairID": "2",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Blaumeise.mp3",
+        "pairID": "3",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Buchfink.mp3",
+        "pairID": "4",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Habicht.mp3",
+        "pairID": "5",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Haubentaucher.mp3",
+        "pairID": "6",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Kuckuck.mp3",
+        "pairID": "7",
+        "type": "audio/mpeg"
+    },
+    {
+        "src": "sounds/voegel/Waldkauz.mp3",
+        "pairID": "8",
+        "type": "audio/mpeg"
+    }
+]

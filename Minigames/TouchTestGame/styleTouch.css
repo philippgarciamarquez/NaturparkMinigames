@@ -1,0 +1,185 @@
+:root {
+	/* --background: #BFD8B8; */
+	--main: #f2eadd;
+	--cards: #e86850;
+	--button: #e86850;
+	/* --border: #e18d75; */
+	--correct: #9CDE9F; 
+	--wrong: #d9374c;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tommy";
+    src: url("../fonts/Tommy-Medium.otf");
+}
+
+body {
+	/* background-color: var(--background); */
+    background-image: url("../Baummuster-01.png");
+	font-family: 'Roboto';
+}
+
+#box {
+    font-family: 'Roboto';
+    background-color: var(--main);
+    /* border-radius: 25px; */
+    text-align: center;
+    line-height: 50px;
+    /* border-style: double; */
+    border-color: var(--border);
+    margin: 10% auto;
+    width: 60%;
+    color: black;
+    box-shadow: 0 4px 8px #00000053;
+    padding-top: 1px;
+    padding-bottom: 20px;
+	width: 1000px;
+    height: 600px;
+}
+
+button{
+	display: flex;
+	padding: 10px;
+	background-color: var(--button);
+    border: none;
+    color: white;
+    /* border-radius: 20px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto';
+    box-shadow:0 4px 8px #00000022;
+    justify-content: center;
+	margin: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.app {
+	display: flex;
+	flex-flow: column;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+h2 {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 15px;
+}
+
+.list-head{
+	padding: 6px;
+	background-color: var(--cards);
+	width: 95%;
+	/* border-radius: 10px 10px 0px 0px; */
+	height: 70%;
+	max-height: 100px;
+	min-height: 50px;
+	margin-bottom: 5px;
+	justify-content: center;
+}
+
+.lists {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	/* border-radius: 15px; */
+}
+
+.lists .list {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+
+	width: 100%;
+	min-width: 100px;
+	max-width: 350px;
+	height: 100%;
+	min-height: 150px;
+
+	background-color: var(--main);
+	/* border-radius: 16px; */
+    border-width: 5px;
+    /* border-style: double; */
+	/* border-color: var(--border); */
+	/* border-radius: 15px; */
+	margin: 10px 10px;
+	transition: all 0.2s linear;
+}
+
+.list-item{
+	color: white;
+	background-color: var(--cards);
+	box-shadow:0 4px 8px #00000022;
+	/* border-radius: 8px; */
+	width: 90%;
+	padding: 5px 0px;
+	text-align: center;
+	font-size: 12px;
+	margin: 4px 0px 4px 4px;
+	cursor: move;
+}
+
+.list-one .two {
+	background-color: var(--wrong);
+}
+.list-one .three {
+	background-color: var(--wrong);
+}
+.list-one .four {
+	background-color: var(--wrong);
+}
+
+.list-two .one {
+	background-color: var(--wrong);
+}
+.list-two .three {
+	background-color: var(--wrong);
+}
+.list-two .four {
+	background-color: var(--wrong);
+}
+
+.list-three .one {
+	background-color: var(--wrong);
+}
+.list-three .two {
+	background-color: var(--wrong);
+}
+.list-three .four {
+	background-color: var(--wrong);
+}
+
+.list-four .one {
+	background-color: var(--wrong);
+}
+.list-four .two {
+	background-color: var(--wrong);
+}
+.list-four .three {
+	background-color: var(--wrong);
+}
+
+.list-item.dragging {
+	opacity: 0.5;
+}
+
+.no-scroll{
+	height: 100vh;
+	overflow: hidden;
+}

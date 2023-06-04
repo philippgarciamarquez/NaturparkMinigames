@@ -1,0 +1,128 @@
+/* classes */
+:root {
+    /* --background: #bed6a6; */
+    --main: #f2eadd;
+    --cards: #e86850;
+    --button: #e86850;
+    /* --border: #ffeb3b; */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tommy";
+    src: url("../fonts/Tommy-Medium.otf");
+}
+
+body {
+    /* background-color: var(--background); */
+    background-image: url("../Baummuster-01.png");
+    width: 800px;
+    margin: auto;
+}
+
+#gameBoard {
+    background-color: var(--main);
+    width: 700px;
+    height: 550px;
+    position: absolute;
+    /* margin-left: 25%; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    /* border-radius: 15px; */
+    border-width: 5px;
+    /* border-style: solid; */
+    /* border-color: var(--border); */
+    font-family: 'Roboto';
+    box-shadow:0 4px 8px #00000053;
+    margin: 3% auto;
+}
+
+button {
+    background-color: var(--button);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    /* border-radius: 20px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: 'Roboto';
+    box-shadow:0 4px 8px #00000022;
+    position: relative;
+    justify-content: center;
+}
+
+/* button:hover {
+    background-color: #2e7896;
+} */
+
+.isHidden {
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* cards */
+.back {
+    font-size: 0px;
+    background-color: var(--cards);
+    /* border-radius: 10px; */
+    box-shadow:0 4px 8px #00000053;
+    /* border-width: 100px;
+    border-color: black; */
+    width: 140px;
+    height: 140px;
+}
+
+.back>img {
+    display: none;
+}
+
+.front {
+    font-size: 25px;
+    text-align: center;
+    color: #323232;
+    background-color: var(--cards);
+    /* border-radius: 10px; */
+    box-shadow:0 4px 8px #00000053;
+    width: 140px;
+    height: 140px;
+    font-family: "Tommy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* game grid*/
+.gameGrid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tommy';
+    font-size: 50px;
+    color: #1b1b1b;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    /* border-radius: 12px; */
+}

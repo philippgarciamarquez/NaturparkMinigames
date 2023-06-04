@@ -1,0 +1,106 @@
+:root {
+  /* --background: #BFD8B8; */
+  --main: #f2eadd;
+  --cards: #e86850;
+  --button: #e86850;
+  /* --border: #e18d75; */
+  --correct: #9CDE9F; 
+  --wrong: #d9374c;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Tommy";
+  src: url("../../fonts/Tommy-Medium.otf");
+}
+
+body {
+  background-image: url("../../Baummuster-01.png");
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Tommy";
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  font-size: 20px;
+  /* font-weight: bold; */
+  background-color: var(--main);
+  /* border-radius: 25px; */
+  padding: 15px;
+  box-shadow: 0 4px 8px #00000053;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  font-size: 20px;
+  border: none;
+  background-color: var(--button);
+  /* border-radius: 10px; */
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  box-shadow: 0 4px 8px #00000022;
+}
+
+.btn:hover {
+  border-color: black;
+  transform:scale(1.02,1.02);
+}
+
+.btn.correct {
+  background-color: var(--correct);
+  color: black;
+}
+
+.btn.wrong {
+  background-color: var(--wrong);
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+#question-text {
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+:root {
+    /* --background: #BFD8B8; */
+    --main: #f2eadd;
+    --cards: #e86850;
+    --button: #e86850;
+    /* --border: #e18d75; */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Tommy";
+    src: url("../fonts/Tommy-Medium.otf");
+}
+
+body {
+    /* background-color: var(--background); */
+    background-image: url("../Baummuster-01.png");
+}
+
+
+h1 {
+    font-family: "Tommy";
+    text-align: center;
+    font-size: 50px;
+    color: rgb(32, 32, 32);
+}
+
+#box {
+    font-family: 'Roboto';
+    background-color: var(--main);
+    /* border-radius: 25px; */
+    text-align: center;
+    /* border-style: double; */
+    border-color: var(--border);
+    margin: auto;
+    width: 60%;
+    color: black;
+    box-shadow: 0 4px 8px #00000053;
+    padding-top: 0.5%;
+}
+
+button {
+    margin: 0.1%;
+    width: 40%;
+    font-size: 25px;
+    border-style: none;
+    /* border-radius: 10px; */
+    background-color: var(--button);
+    color: white;
+    font-family: 'Roboto';
+    box-shadow: 0 4px 8px #00000022;
+}
+
+p {
+    margin: 0.5%;
+}

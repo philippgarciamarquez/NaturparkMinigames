@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skala</title>
+    <script src="skalenfrage.js" defer></script>
+    <link rel="stylesheet" href="styleSkalenfrage.css">
+</head>
+
+<body>
+    <div id="box">
+        <h1>Quiz</h1>
+        <h2>Skalenfrage</h2>
+        <p>Wähle deine Antwort mit dem Regler.</p>
+        <div id="question"></div>
+        <div class="sliderDiv">
+            <input type="range" min="0" max="10" value="0" step="1" id="slider">
+            <div  class="sliderValue">
+                <div></div>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- https://codepen.io/dsr/pen/rNLxBxw -->
+            <h2 id="true-false"></h2>
+            <div class="break"></div>
+            <p id="answer"></p>
+            <button id="reload">Neu laden</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+    <script src="Quiz.js" defer></script>
+    <link rel="stylesheet" href="styleTrueFalse.css">
+</head>
+
+<body> 
+    <div id="box">
+        <h1>Quiz</h1>
+        <p>Ist die Aussage wahr oder falsch?</p>
+        <h2>Aussage:</h2>
+        <div id="question"></div>
+        <button id="trueAnswer">Richtig!</button>
+        <br>
+        <button id="falseAnswer">Falsch!</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <span class="closeModal">&times;</span> -->
+            <h2 id="true-false"></h2>
+            <div class="break"></div>
+            <p id="answer"></p>
+            <button id="reload">Startseite</button>
+        </div>
+    </div>
+</body>
+
+</html>

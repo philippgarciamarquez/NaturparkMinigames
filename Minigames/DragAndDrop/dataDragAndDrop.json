@@ -1,0 +1,129 @@
+[
+    {
+        "text": "Pilze",
+        "column": "two"
+    },
+    {
+        "text": "Steinschlag",
+        "column": "one"
+    },
+    {
+        "text": "Reiten",
+        "column": "two"
+    },
+    {
+        "text": "Wandern",
+        "column": "three"
+    },
+    {
+        "text": "Christbaum",
+        "column": "two"
+    },
+
+    {
+        "text": "Jogging",
+        "column": "three"
+    },
+    {
+        "text": "Jagd",
+        "column": "two"
+    },
+    {
+        "text": "Sonntagsausflug",
+        "column": "three"
+    },
+
+        {
+        "text": "Hochwasser",
+        "column": "one"
+    },
+    {
+        "text": "Mountainbiking",
+        "column": "three"
+    },
+    {
+        "text": "Bauholz",
+        "column": "two"
+    },
+    {
+        "text": "Stille erleben",
+        "column": "three"
+    },
+    {
+        "text": "Papier",
+        "column": "two"
+    },
+    {
+        "text": "Urlaub",
+        "column": "three"
+    },
+    {
+        "text": "Möbel",
+        "column": "two"
+    },
+    {
+        "text": "Luftkurort",
+        "column": "three"
+    },
+    {
+        "text": "Beeren",
+        "column": "two"
+    },
+    {
+        "text": "Erdrutsch",
+        "column": "one"
+    },
+    {
+        "text": "Lebensraum",
+        "column": "four"
+    },
+    {
+        "text": "Staub",
+        "column": "one"
+    },
+    {
+        "text": "Artenvielfalt",
+        "column": "four"
+    },
+    {
+        "text": "Naturschutzgebiet",
+        "column": "four"
+    },
+    {
+        "text": "Orkan",
+        "column": "one"
+    },
+    {
+        "text": "Sauerstoffproduktion",
+        "column": "four"
+    },
+    {
+        "text": "Lärm",
+        "column": "one"
+    },
+    {
+        "text": "ökologisches Gleichgewicht",
+        "column": "four"
+    },
+    {
+        "text": "Brennholz",
+        "column": "two"
+    },
+    {
+        "text": "Artenschutz",
+        "column": "four"
+    },
+    {
+        "text": "Lawinen",
+        "column": "one"
+    },
+    {
+        "text": "Biotope",
+        "column": "four"
+    },
+    {
+        "text": "Trinkwasser",
+        "column": "two"
+    }
+
+]

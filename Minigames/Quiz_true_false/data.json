@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Ist es richtig, Pflanzen im Wald abzureißen?",
+        "booleanOfQuestion": false,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Um die Natur zu schützen, verhalte ich mich gegenüber dem Wald respektvoll und greife nicht in die Natur ein, indem ich Pflanzen abreiße."
+    },
+    {
+        "question": "Ist es notwendig, im Wald auf den vorbestimmten Wegen zu bleiben?",
+        "booleanOfQuestion": true,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Es ist wichtig auf den gekennzeichneten Wegen zu bleiben um nicht zu     sehr in den natürlichen Lebensraum der heimischen Tiere und Pflanzen eingreifen oder etwas kaputt zu machen."
+    },
+    {
+        "question": "Wenn ich im Wald Müll oder Plastik finde, hebe ich es auf und schmeiße es weg.",
+        "booleanOfQuestion": true,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Wir können alle etwas zum Schutz des Waldes beitragen und schon das Aufsammeln von Plastik oder anderem Müll im Wald kann eine große Hilfe sein. Man kann zum Beispiel einen kleinen Müllsack zum Waldspaziergang mitnehmen und allen Müll der rumliegt einsammeln. So kann jeder/jede dem Wald ein bisschen helfen."
+    },
+    {
+        "question": "Wenn ich ein Tier sehe, versuche ich es einzufangen.",
+        "booleanOfQuestion": false,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Um die Tiere in der Natur zu schützen, verhalte ich mich leise, unauffällig und halte Abstand vor ihnen. "
+    },
+    {
+        "question": "Für das Anlegen von Skipisten und den Tourismus in Skigebieten werden jährlich viele Kilometer Wald gerodet. Das bringt zwar viel Geld für die Menschen ein, schadet aber dem Wald und all seinen Bewohnern.",
+        "booleanOfQuestion": true,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Damit wir Menschen Spaß beim Skifahren haben können, werden oft Wälder gefällt oder Pisten planiert. Das zerstört den Lebensraum vieler Tiere und Pflanzen und macht die Gebiete auch anfälliger für Ersch Rutsche und Lawinen."
+    },
+    {
+        "question": "Der Skisport und das Anlegen von Skipisten schadet den Pflanzen und Tieren des Waldes nicht, weil Skipisten nicht in ihrem natürlichen Lebensraum liegen.",
+        "booleanOfQuestion": false,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Nein, Skipisten liegen oft in den natürlichen Lebensräumen von Tieren wie Rotwild, Hasen, Füchse und heimischen Vogelarten. Außerdem werden durch das Anlegen von Skipisten heimische Pflanzen zerstört. "
+    }
+]

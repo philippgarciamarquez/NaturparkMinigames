@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "src": "images/baumkunde/Bild1.jpg",
+        "text": "Birke"
+    },
+    {
+        "id": "2",
+        "src": "images/baumkunde/Bild4.jpg",
+        "text": "Fichte"
+    },
+    {
+        "id": "3",
+        "src": "images/baumkunde/Bild5.jpg",
+        "text": "Tanne"
+    },
+    {
+        "id": "4",
+        "src": "images/baumkunde/Bild7.jpg",
+        "text": "Eiche"
+    },
+    {
+        "id": "5",
+        "src": "images/baumkunde/Bild9.jpg",
+        "text": "Rotbuche"
+    },
+    {
+        "id": "6",
+        "src": "images/baumkunde/Bild11.jpg",
+        "text": "Bergahorn"
+    }
+]

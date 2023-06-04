@@ -1,0 +1,72 @@
+[
+    {
+        "text": "Der Tiger ist ein ",
+        "input": "Raubtier",
+        "text_after": " "
+    },
+    {
+        "text": ", von dem alle heute bekannten ",
+        "input": "Hunderassen",
+        "text_after": " stammen. "
+    },
+    {
+        "text": "Wölfe leben vor allem auf der ",
+        "input": "Nordhalbkugel",
+        "text_after": " "
+    },
+    {
+        "text": " und bewohnen ",
+        "input": "Wälder",
+        "text_after": ", aber auch Gras- und Buschland, "
+    },
+    {
+        "text": " felsige Regionen oder ",
+        "input": "Gebirge",
+        "text_after": ". "
+    },
+    {
+        "text": " Sie können bis zu ",
+        "input": "60",
+        "text_after": " km/h schnell werden."
+    },
+    {
+        "text": " Aktuell sind 161 Wölfe in ",
+        "input": "Deutschland",
+        "text_after": " gezählt worden."
+    },
+    {
+        "text": " Die Wölfe leben in Familien, so genannten Rudeln. Wölfe sind wichtig für das ",
+        "input": "Gleichgewicht",
+        "text_after": " in der Natur,"
+    },
+    {
+        "text": " weil sie häufig ",
+        "input": "kranke",
+        "text_after": " oder schwache Tiere erlegen."
+    },
+    {
+        "text": " Zudem werden ",
+        "input": "Nutztiere",
+        "text_after": " wie Schafe, Ziegen "
+    },
+    {
+        "text": " oder ",
+        "input": "Kühe",
+        "text_after": " oft gefressen, "
+    },
+    {
+        "text": " wodurch der Wolf bei den ",
+        "input": "Landwirten",
+        "text_after": " unbeliebt ist."
+    },
+    {
+        "text": " Es gibt keinen offiziellen Bericht darüber, das ein ",
+        "input": "gesunder",
+        "text_after": " Wolf jemals "
+    },
+    {
+        "text": " einen ",
+        "input": "Menschen",
+        "text_after": " attackiert hätte, um ihn zu fressen."
+    }
+]

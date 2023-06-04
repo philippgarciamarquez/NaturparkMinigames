@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Wie viele Wölfe gibt es in Deutschland",
+        "answer": 3,
+        "answerText": "Es gibt in Deutschland gerade mindestens 3 Wölfe!",
+        "tolerance": 1 
+    },
+    {
+        "question": "Wie viele Borkenkäfer gibt es in Deutschland",
+        "answer": 8,
+        "answerText": "Es gibt in Deutschland gerade mindestens 8 Borkenkäfer!",
+        "tolerance": 1
+    },
+    {
+        "question": "Wie viele Affen gibt es in Deutschland",
+        "answer": 5,
+        "answerText": "Es gibt in Deutschland gerade mindestens 5 Affen!",
+        "tolerance": 1   
+    },
+    {
+        "question": "Wie viele Kangoroos gibt es in Deutschland",
+        "answer": 10,
+        "answerText": "Es gibt in Deutschland gerade mindestens 10 Kangoroos!",
+        "tolerance": 1   
+    }
+]

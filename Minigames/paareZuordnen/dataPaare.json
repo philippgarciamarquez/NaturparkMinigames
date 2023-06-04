@@ -1,0 +1,50 @@
+[
+    {
+        "src": "images/BNE_Bilder/Anglerhut.png",
+        "pairID": "1"
+    },
+    {
+        "src": "images/BNE_Bilder/Bollenhut.png",
+        "pairID": "1"
+    },
+    {
+        "src": "images/BNE_Bilder/Fasnetmasken.png",
+        "pairID": "2"
+    },
+    {
+        "src": "images/BNE_Bilder/Venedigmasken.png",
+        "pairID": "2"
+    },
+    {
+        "src": "images/BNE_Bilder/Kuckucksuhr.png",
+        "pairID": "3"
+    },
+    {
+        "src": "images/BNE_Bilder/Sanduhr.png",
+        "pairID": "3"
+    },
+    {
+        "src": "images/BNE_Bilder/Mammutbaum.png",
+        "pairID": "4"
+    },
+    {
+        "src": "images/BNE_Bilder/Tanne.png",
+        "pairID": "4"
+    },
+    {
+        "src": "images/BNE_Bilder/Matjes_Brötchen.png",
+        "pairID": "5"
+    },
+    {
+        "src": "images/BNE_Bilder/Schwärz_Schinken.png",
+        "pairID": "5"
+    },
+    {
+        "src": "images/BNE_Bilder/Schwarzwaldhaus.png",
+        "pairID": "6"
+    },
+    {
+        "src": "images/BNE_Bilder/Reetdachhaus.png",
+        "pairID": "6"
+    }
+]

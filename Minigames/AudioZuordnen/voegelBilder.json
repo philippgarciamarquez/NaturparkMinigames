@@ -1,0 +1,43 @@
+[
+    {
+        "src": "images/voegel/Amsel_maennlich.jpg",
+        "pairID": "1",
+        "name": "Amsel"
+    },
+    {
+        "src": "images/voegel/Auerhuhn.jpg",
+        "pairID": "2",
+        "name": "Auerhuhn"
+
+    },
+    {
+        "src": "images/voegel/Blaumeise.jpg",
+        "pairID": "3",
+        "name": "Blaumeise"
+    },
+    {
+        "src": "images/voegel/Buchfink.jpg",
+        "pairID": "4",
+        "name": "Buchfink"
+    },
+    {
+        "src": "images/voegel/Habicht.jpg",
+        "pairID": "5",
+        "name": "Habicht"
+    },
+    {
+        "src": "images/voegel/Haubentaucher.jpg",
+        "pairID": "6",
+        "name": "Haubentaucher"
+    },
+    {
+        "src": "images/voegel/Kuckuck.jpg",
+        "pairID": "7",
+        "name": "Kuckuck"
+    },
+    {
+        "src": "images/voegel/Waldkauz.jpg",
+        "pairID": "8",
+        "name": "Waldkauz"
+    }
+]
