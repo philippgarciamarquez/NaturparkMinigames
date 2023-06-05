@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "src": "images/Thema_02/Memory_Erdbeere_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Erdbeere_Pflanze.jpg"
+    },
+    {
+        "id": "2",
+        "src": "images/Thema_02/Memory_Banane_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Banane_Pflanze.jpg"
+    },
+    {
+        "id": "3",
+        "src": "images/Thema_02/Memory_Gurke_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Gurke_Pflanze.jpg"
+    },
+    {
+        "id": "4",
+        "src": "images/Thema_02/Memory_Kartoffel_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Kartoffel_Pflanze.jpg"
+    },
+    {
+        "id": "5",
+        "src": "images/Thema_02/Memory_Mais_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Mais_Pflanze.jpg"
+    },
+    {
+        "id": "6",
+        "src": "images/Thema_02/Memory_Walnuss_Lebensmittel.jpg",
+        "src2": "images/Thema_02/Memory_Walnuss_Pflanze.png"
+    }
+]
