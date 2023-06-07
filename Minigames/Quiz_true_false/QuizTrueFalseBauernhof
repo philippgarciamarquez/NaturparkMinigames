@@ -1,0 +1,20 @@
+[
+    {
+        "question": "Deutschland ist der größte Milcherzeuger der EU",
+        "booleanOfQuestion": true,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Im Jahr 2021 wurden rund 31,9 Millionen Tonnen Milch an die Molkereien geliefert"
+    },
+    {
+        "question": "Die Fruchtfolge ist die bestimmte Aufeinanderfolge verschiedener Pflanzen auf den Feldern der Bauern.",
+        "booleanOfQuestion": true,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Durch die Fruchtfolge bleiben die Böden fruchtbarer da die verschiedenen Pflanzen unterschiedliche Nährstoffe aus dem Boden brauchen."
+    },
+    {
+        "question": "Tiefe Bodenbearbeitung von Maschienen, Dünger und Pflanzenschutzmittel machen dem Regenwurm im Boden nichts aus.",
+        "booleanOfQuestion": false,
+        "commentIfRight": "Korrekt!",
+        "commentIfFalse": "Bodenbearbeitung stört die Regenwürmer und zerstört ihr Kanalsystem was zu einer Bodenverdichtung führt. Außerdem reagieren Regenwürmer sensibel auf Dünge- und Pestizideinsätze."
+    }
+]
