@@ -10,16 +10,16 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "Tommy";
-  src: url("../../fonts/Tommy-Medium.otf");
+  src: url("../fonts/Tommy-Medium.otf");
 }
 
 body {
-  background-image: url("../../Baummuster-01.png");
+  background-image: url("../Baummuster-01.png");
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;

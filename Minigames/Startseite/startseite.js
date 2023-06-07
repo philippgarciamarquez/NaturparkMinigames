@@ -5,7 +5,6 @@ let triplett = document.getElementById("triplett");
 let zuordnungAudio = document.getElementById("zuordnungAudio");
 let zuordnung = document.getElementById("zuordnung");
 let quizRF = document.getElementById("quizRF");
-let multipleChoicePK = document.getElementById("multipleChoicePK");
 let multipleChoiceOK = document.getElementById("multipleChoiceOK");
 let dragNDrop = document.getElementById("dragNDrop");
 lueckentext.addEventListener("click", () => { window.open("../Lueckentext/lueckentext.html?json=dataLuecken.json", "_self"); });
@@ -14,7 +13,6 @@ triplett.addEventListener("click", () => { window.open("../triplett/triplett.htm
 zuordnungAudio.addEventListener("click", () => { window.open("../AudioZuordnen/audioZuordnen.html?jsonAudio=voegelAudio.json&jsonBilder=voegelBilder.json", "_self"); });
 zuordnung.addEventListener("click", () => { window.open("../paareZuordnen/paareZuordnen.html?json=dataPaare.json", "_self"); });
 quizRF.addEventListener("click", () => { window.open("../Quiz_true_false/Quiz.html?json=data.json", "_self"); });
-multipleChoicePK.addEventListener("click", () => { window.open("../Quiz_MultipleChoice/multipleChoice_Politik_Kultur/multipleChoicePK.html", "_self"); });
-multipleChoiceOK.addEventListener("click", () => { window.open("../Quiz_MultipleChoice/multipleChoice_Oekonomie/multipleChoiceOK.html", "_self"); });
+multipleChoiceOK.addEventListener("click", () => { window.open("../Quiz_MultipleChoice/multipleChoiceOK.html?json=dataChoiceOK.json", "_self"); });
 dragNDrop.addEventListener("click", () => { window.open("../DragAndDrop/DragAndDrop.html?json=dataDragAndDrop.json", "_self"); });
 //# sourceMappingURL=startseite.js.map

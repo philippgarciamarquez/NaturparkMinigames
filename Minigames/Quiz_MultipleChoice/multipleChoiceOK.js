@@ -9,15 +9,27 @@ const questionText = document.getElementById("question-text");
 
 let shuffledQuestions, currentQuestionIndex
 
-startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', handleLoad)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
 
-function startGame() {
+
+
+async function handleLoad() {
+  let jsonFile = new URLSearchParams(window.location.search).get("json");
+  console.log(jsonFile);
+  let response = await fetch(jsonFile);
+  let json = await response.json();
+  data = json;
+
+  startGame(data);
+}
+
+function startGame(_data) {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  shuffledQuestions = _data.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
@@ -85,42 +97,3 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
-
-const questions = [
-  {
-    question: 'Ein Entnahmebaum...',
-    answers: [
-      { text: 'soll nicht gefällt werden', correct: false },
-      { text: 'ist Erntereif', correct: false },
-      { text: 'soll bei der nächsten Durchforstungsmaßnahme gefällt werden', correct: true },
-      { text: 'steht am Rand einer Fahrgasse', correct: false },
-    ]
-  },
-  {
-    question: 'Ein Gassenrandbaum...',
-    answers: [
-      { text: 'ist das Zuhause von Eichhörnchen', correct: false },
-      { text: 'verbindet zwei Baumgassen miteinander', correct: false },
-      { text: 'darf nur parallel gefällt werden', correct: false },
-      { text: 'gibt vor wo eine Forstmaschine im Wald fahren darf', correct: true }
-    ]
-  },
-  {
-    question: 'Ein Habitatbaum...',
-    answers: [
-      { text: 'hat eine hohe Bedeutung für die Artenvielfalt', correct: true },
-      { text: 'sollte nur im Zick-Zack Schnitt gefällt werden', correct: false },
-      { text: 'ist von Holzwürmern befallen', correct: false },
-      { text: 'ist ein besonders schief gewachsener Baum', correct: false }
-    ]
-  },
-  {
-    question: 'Ein Zukunftsbaum...',
-    answers: [
-      { text: 'gibt vor, wie jeder Baum in 10 Jahren aussieht', correct: false },
-      { text: 'ist ein genetisch veränderter Baum', correct: false },
-      { text: 'ist schon älter als 300 Jahre', correct: false },
-      { text: 'gehört zu den wertvollsten Bäumen im Bestand', correct: true }
-    ]
-  }
-]
