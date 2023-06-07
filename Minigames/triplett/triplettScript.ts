@@ -3,7 +3,6 @@ namespace triplettGame {
     window.addEventListener("load", handleLoad);
 
     interface Card {
-        type: string;
         src: string;
         text: string;
         src2: string;

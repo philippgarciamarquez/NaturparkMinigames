@@ -1,36 +1,30 @@
 [
     {
-        "id": "1",
         "src": "images/baumkunde/Bild1.jpg",
         "text": "Birke",
         "src2": "images/baumkunde/Bild2.png"
     },
     {
-        "id": "1",
         "src": "images/baumkunde/Bild11.jpg",
         "text": "Bergahorn",
         "src2": "images/baumkunde/Bild12.jpg"
     },
     {
-        "id": "1",
         "src": "images/baumkunde/Bild9.jpg",
         "text": "Rotbuche",
         "src2": "images/baumkunde/Bild10.jpg"
     },
     {
-        "id": "1",
         "src": "images/baumkunde/Bild7.jpg",
         "text": "Eiche",
         "src2": "images/baumkunde/Bild13.jpg"
     },
     {
-        "id": "1",
         "src": "images/baumkunde/Bild5.jpg",
         "text": "Tanne",
         "src2": "images/baumkunde/Bild14.jpg"
     },
     {
-        "id": "1",
         "src": "images/baumkunde/Bild4.jpg",
         "text": "Fichte",
         "src2": "images/baumkunde/Bild15.png"
