@@ -1,0 +1,54 @@
+[
+    {
+      "question": "Warum spielt der Regenwurm für den Bauern eine wichtige Rolle?",
+      "answers": [
+            { "text": "Regenwürmer lockern den Boden wodurch die angebauten Pflanzen besser wachsen können.", "correct": true
+            },
+            { "text": "Regenwürmer fressen nur das Unkraut.", "correct": false
+            },
+            { "text": "Regenwürmer sind eine wichtige Proteinquelle für die Kühe der Bauern.", "correct": false
+            },
+            { "text": "Regenwürmer zersetzen Pflanzenreste und bilden Humus welcher die Bodenfruchtbarkeit steigert.", "correct": true
+            }
+        ]
+    },
+    {
+      "question": "Wie nennt man getrocknetes Gras?",
+      "answers": [
+            { "text": "Stroh", "correct": false
+            },
+            { "text": "Heulage", "correct": false
+            },
+            { "text": "Silage", "correct": false
+            },
+            { "text": "Heu", "correct": true
+            }
+        ]
+    },
+    {
+      "question": "Kühe stoßen große Mengen Methan Gas aus. Methan ist ein Treibhausgas wie CO2 aber ist 25 mal wirksamer als dieses. Kühe haben demnach einen negativen Effekt auf unser Klima. Was denkst du wie viel Methan eine Kuh im Jahr ausstößt?",
+      "answers": [
+            { "text": "15 kg", "correct": false
+            },
+            { "text": "50 kg", "correct": false
+            },
+            { "text": "85 kg", "correct": false
+            },
+            { "text": "100 kg", "correct": true
+            }
+        ]
+    },
+    {
+      "question": "Welche Fakten über Wildbienen stimmen?",
+      "answers": [
+            { "text": "Wildbienen produzieren keinen Honig", "correct": true
+            },
+            { "text": "Hummeln sind die bekannteste Wildbienenart", "correct": true
+            },
+            { "text": "Wildbienen leben in Bienenvölkern wie Honigbienen", "correct": false
+            },
+            { "text": "Wildbienen betäuben Pflanzen effektiver als Honigbienen", "correct": true
+            }
+        ]
+    }
+]
