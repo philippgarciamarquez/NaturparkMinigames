@@ -14,5 +14,5 @@ zuordnungAudio.addEventListener("click", () => { window.open("../AudioZuordnen/a
 zuordnung.addEventListener("click", () => { window.open("../paareZuordnen/paareZuordnen.html?json=dataPaare.json", "_self"); });
 quizRF.addEventListener("click", () => { window.open("../Quiz_true_false/Quiz.html?json=data.json", "_self"); });
 multipleChoiceOK.addEventListener("click", () => { window.open("../Quiz_MultipleChoice/multipleChoiceOK.html?json=dataChoiceOK.json", "_self"); });
-dragNDrop.addEventListener("click", () => { window.open("../DragAndDrop/DragAndDrop.html?json=dataDragAndDrop.json", "_self"); });
+dragNDrop.addEventListener("click", () => { window.open("../DragAndDrop/DragAndDrop.html?json1=dataDragAndDrop.json&json2=dataColumns.json", "_self"); });
 //# sourceMappingURL=startseite.js.map

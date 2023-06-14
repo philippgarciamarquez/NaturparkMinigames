@@ -23,28 +23,43 @@ function getElementAfter(container, x) {
 }
 
 let lists = Array.from(document.querySelectorAll(".list"));
+let titleDivs = Array.from(document.querySelectorAll(".list-head"));
 
-let jsonFile = new URLSearchParams(window.location.search).get("json");
-getData(jsonFile);
 
-async function getData(_url) {
+let jsonFile1 = new URLSearchParams(window.location.search).get("json1");
+let jsonFile2 = new URLSearchParams(window.location.search).get("json2");
+getData(jsonFile1, jsonFile2);
 
-	let response = await fetch(_url);
-	let data = await response.json();
-	console.log(data);
+async function getData(_url1, _url2) {
 
-	for (let i = 0; i < data.length; i++) {
+	let response1 = await fetch(_url1);
+	let data1 = await response1.json();
+	console.log(data1);
+
+	let response2 = await fetch(_url2);
+	let data2 = await response2.json();
+
+	for (let i = 0; i < data1.length; i++) {
 		let cardDiv = document.createElement("div");
-		let className = "list-item " + data[i].column;
+		let className = "list-item " + data1[i].column;
 		cardDiv.setAttribute("class", className);
 		cardDiv.draggable = false;
-		cardDiv.innerText = data[i].text;
+		cardDiv.innerText = data1[i].text;
 		list_items.push(cardDiv);
 
 
 		let startList = document.getElementById("start-list");
 		startList.appendChild(cardDiv);
 	}
+
+	for (let i = 0; i < data2.length; i++) {
+
+		let h2 = document.createElement("h2");
+		h2.innerHTML = data2[i].title;
+		titleDivs[i+1].appendChild(h2);
+
+	}
+
 	addTouch(list_items);
 }
 
@@ -104,7 +119,7 @@ function addTouch(list_items) {
 		list_items.addEventListener('touchstart', (e) => {
 
 			list_items.draggable = "false";
-			
+
 			disableScroll();
 			let timeout = setTimeout(function () {
 				list_items.classList.add('dragging');
