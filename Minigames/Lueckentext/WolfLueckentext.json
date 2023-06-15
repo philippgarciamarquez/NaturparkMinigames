@@ -1,0 +1,52 @@
+[
+    {
+        "text": "Der Wolf ist ein ",
+        "input": "Raubtier",
+        "text_after": " "
+    },
+    {
+        "text": ", von dem alle heute bekannten ",
+        "input": "Hunderassen",
+        "text_after": " abstammen."
+    },
+    {
+        "text": "Sein Lebensraum ist vor allem der ",
+        "input": "Wald",
+        "text_after": " "
+    },
+    {
+        "text": ", er bewohnt aber auch Gras- und Buschlandschaften oder ",
+        "input": "Gebirge",
+        "text_after": ". "
+    },
+    {
+        "text": " Er kann bis zu ",
+        "input": "60",
+        "text_after": " km/h schnell laufen. "
+    },
+    {
+        "text": "Die Gruppen, in denen der Wolf lebt, nennt man ",
+        "input": "Rudel",
+        "text_after": ". "
+    },
+    {
+        "text": "Wölfe sind wichtig für das ",
+        "input": "Gleichgewicht",
+        "text_after": " in der Natur, "
+    },
+    {
+        "text": "weio sie häufig ",
+        "input": "kranke",
+        "text_after": " oder schwache Tiere erlegen. "
+    },
+    {
+        "text": "Bei Landwirt*innen ist der Wolf oft unbeliebt, weil er auch Nutztiere wie Schafe, Ziegen oder   ",
+        "input": "Kühe",
+        "text_after": " frisst. "
+    },
+    {
+        "text": "Es gibt keinen offiziellen Bericht darüber, dass ein gesunder Wolf jemals einen ",
+        "input": "Menschen",
+        "text_after": " attackiert hat, um ihn zu fressen."
+    }
+]
